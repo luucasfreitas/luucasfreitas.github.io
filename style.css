@@ -1,0 +1,33 @@
+.borda-redonda {
+    border: 1.5px solid #484848;
+    border-radius: 0.8em; 
+}
+.direita{
+    text-align: right;
+}
+#sobre ul {
+    list-style: none;
+}
+
+#projetos {
+    text-align: center;
+    border-radius: 0.8em;
+}
+
+.gradiente {
+    background-image: linear-gradient(to bottom, #e1e1e1, #b9b9b9, #e1e1e1)
+}
+
+#projetos img {
+    border-radius: 0.7em;
+}
+
+.black {
+    color: black;
+
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 20px;
+}
