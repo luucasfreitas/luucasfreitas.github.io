@@ -1,0 +1,138 @@
+body {
+    background: black ;
+}
+
+header {
+    background: black;
+    text-align: center;
+}
+
+#barraNavPrincipal {
+    text-align: left;
+}
+
+#conteudo {
+    /* background-image: linear-gradient(to bottom, black,  #FF9E5E); */
+    background: url(../images/background.png);
+    margin-top: 2em
+}
+
+#conteudo h1, #conteudo h4 {
+    color: #FF9E5E;
+}
+
+#conteudo p {
+    color: white;
+}
+
+#research {
+    text-align: center;
+    align-items: center;
+    margin-top: 3em
+}
+
+#carousel-mars {
+    width: 40%;
+}
+
+#research h2 {
+    color:  #FF9E5E;
+}
+
+#research p {
+    color: #b9b9b9;
+}
+
+#conteudo2 {
+    margin-top: 3em;
+    text-align: center;
+    color: #686868;
+    margin-bottom: 3em;
+}
+
+.linha {
+    border: 1px solid white;
+    border-radius: 1em;
+}
+
+.rodape a {
+    color: rgba(70, 70, 70, 0.9);
+    padding: 2%;
+}
+
+.direitos {
+    color: white;
+    text-align: center;
+    margin: 1em auto;
+}
+
+#conteudo-missao {
+    align-items: center;
+}
+
+#conteudo-missao h1{
+    color: #FF9E5E;
+}
+
+#conteudo-missao p {
+    color:#b9b9b9;
+}
+
+.align-right-h1 {
+    text-align: right;
+}
+
+.align-center-h1 {
+    text-align: center;
+}
+
+.separador {
+    border: 1px solid #b9b9b9;
+}
+
+#conteudo-missao a{
+    text-transform: uppercase;
+    
+}
+
+#conteudo-missao a:hover{
+    color: white;
+    background: url(../images/button.png);
+
+}
+
+.about-vision {
+    border: 1px solid #686868;
+    border-radius: 1em;
+}
+
+#conteudo-visao {
+    text-align: center;
+}
+
+#conteudo-visao h1, #conteudo-visao h3 {
+    color: #FF9E5E;
+}
+#conteudo-visao .terra {
+    color: #3b74c0;
+}
+
+#conteudo-visao p {
+    color:#b9b9b9;
+}
+
+#contato {
+    color: #b9b9b9;
+}
+
+#contato h1{
+    color: #FF9E5E;
+}
+
+#contribue {
+    color: #b9b9b9;
+}
+
+#contribue h1 {
+    color: #FF9E5E
+}
