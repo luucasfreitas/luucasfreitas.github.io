@@ -1,33 +1,52 @@
-.borda-redonda {
-    border: 1.5px solid #484848;
-    border-radius: 0.8em; 
+#logo{
+    text-align: center;
 }
-.direita{
-    text-align: right;
+
+#projetos{
+    margin-top: 2.5em;
+    width: 60%;
+    text-align: center;
 }
+
+#sobre {
+    width: 90%;
+}
+
 #sobre ul {
     list-style: none;
 }
 
-#projetos {
-    text-align: center;
-    border-radius: 0.8em;
+
+.borda-redonda {
+    border: 1.5px solid #484848;
+    border-radius: 0.8em; 
 }
 
-.gradiente {
-    background-image: linear-gradient(to bottom, #e1e1e1, #b9b9b9, #e1e1e1)
+.direita{
+    text-align: right;
 }
 
-#projetos img {
-    border-radius: 0.7em;
-}
 
 .black {
     color: black;
 
 }
 
+.texto-carousel {
+    color: #871d1d;
+}
+
+
+
 footer {
     text-align: center;
     padding-bottom: 20px;
+}
+
+
+
+@media (max-width: 700px) {
+    #projetos{
+        width: 100%;
+    }
 }
