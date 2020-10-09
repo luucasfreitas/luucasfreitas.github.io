@@ -1,0 +1,91 @@
+#home .descricao-micro {
+    background-color: #FFDEAD;
+    background-image: linear-gradient(to left, white, #FFDEAD);
+}
+
+#home .descricao-micro h1, #home .descricao-micro p {
+    margin-left: 20px;
+}
+
+#diversos, #pacotes, #maisSobreProcedimentos {
+    margin-top: 30px;
+}
+
+
+
+.maisProcedimentos {
+    background-image: linear-gradient(to bottom, white, #FFDEAD);
+    margin-top: 25px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.rodape a {
+    color: rgba(0,0,0,.9);
+    padding: 2%;
+}
+
+.gradiente-direita {
+    background-image: linear-gradient(to left, white, #FFDEAD);
+    text-align: left;
+}
+
+.gradiente-esquerda {
+    background-image: linear-gradient(to right, white, #FFDEAD);
+    text-align: right;
+}
+
+.gradiente-direita h2, .gradiente-direita p {
+    margin-left: 20px;   
+}
+
+.gradiente-esquerda h2, .gradiente-esquerda p {
+    margin-right: 20px;
+}
+
+#procedimentos {
+    margin-bottom: 25px;
+}
+
+#procedimentos h1 {
+    text-align: center;
+}
+
+#procedimentos .alinhamento-img-right{
+    text-align: right;
+}
+
+#procedimentos .row {
+    background: #FFDEAD;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#agende {
+    margin: 30px 0;
+}
+
+#pacotes {
+    text-align: center;
+    margin-bottom: 25px;
+}
+#cabecalho-pacote{ 
+    margin-top: 20px;
+    margin-bottom: 40px;
+    background: #FFDEAD;
+}
+#pacotes .estetica {
+    background-image: linear-gradient(to bottom, white, #FFDEAD);
+    
+}
+
+#pacotes .botao-agendamento {
+    background: #FFDEAD;
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+
+#contato {
+    background-image: linear-gradient(to bottom, white, #FFDEAD);
+    margin-bottom: 30px;
+}
