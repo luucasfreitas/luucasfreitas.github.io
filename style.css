@@ -1,52 +1,65 @@
-#logo{
+html, body, #home {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    background: url(images/background.png) repeat-y center, linear-gradient(to top, #1d2548, #1d2548);
+    background-attachment: fixed;
+} 
+
+#home {
+    margin: 15em auto;
+    color: #ffffff;
+}
+
+#home p{
     text-align: center;
+    font-size: 2em;
+    font-weight: 600;
+    background: rgb(92, 92, 92, 0.7);
+    display: in;
 }
 
-#projetos{
-    margin-top: 2.5em;
-    width: 60%;
-    text-align: center;
+nav.navbar-transparente {
+    background: rgba(255, 255, 255, 0.7);
 }
 
-#sobre {
-    width: 90%;
+header nav {
+    font-size: 1.2em;
 }
 
-#sobre ul {
-    list-style: none;
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #9bf0e1;
 }
 
-
-.borda-redonda {
-    border: 1.5px solid #484848;
-    border-radius: 0.8em; 
+.navbar-light .navbar-toggler {
+    color: rgba(255, 255, 255, 0.5);
+    border-color: rgba(255, 255, 255, 0.5);
 }
 
-.direita{
-    text-align: right;
-}
-
-
-.black {
-    color: black;
-
-}
-
-.texto-carousel {
-    color: #871d1d;
-}
-
-
-
-footer {
-    text-align: center;
+.caixa {
+    padding-top: 20px;
     padding-bottom: 20px;
 }
 
+#projetos, #sobre, #contato {
+    background: rgba(255, 255, 255, 0.85);
+}
 
+#projetos h1 {
+    text-align: center;
+}
 
-@media (max-width: 700px) {
-    #projetos{
-        width: 100%;
-    }
+#contato a {
+    color: #000000;
+}
+
+.separador {
+    padding: 2em 0;
+}
+
+footer {
+    background: white;
+    text-align: center;
 }
