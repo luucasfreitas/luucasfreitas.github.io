@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #0A043C;
+}
+nav.navbar.navbar-expand-lg.navbar-dark {
+    background-image: linear-gradient(to to bottom right, #212529, rgb(0, 0, 104))
+}
+
+.main {
+    margin-top: 20px;
+    background-image: url("./img/estrela.png");
+}
+h1{
+    font-weight: 700;
+    font-size: 4em;
+    color: #FFE3D8;
+}
+.principal {
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+p.text-principal{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    color: rgb(224, 224, 224);
+    font-size: 1.2em;
+
+}
+
+img.foguete {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.conteudo {
+    background-image: linear-gradient(to bottom, #0A043C, rgb(196, 196, 196),rgb(196, 196, 196), #0A043C);
+    padding: 50px;
+    background-color: white;
+    height: 100vh;
+}
+
+.final {
+    padding: 40px;
+    background-image: url("./img/estrela.png");
+
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
